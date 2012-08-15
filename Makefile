@@ -13,5 +13,5 @@ space-invaders: $(SOURCES)
 	gcc -o space-invaders `pkg-config --cflags --libs clutter-gtk-1.0 clutter-1.0` $(SOURCES)
 
 clean:
-	rm space-invaders
-	rm *~
+	- rm space-invaders
+	- rm *~
